@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author:Brandon Melendez
+Date:3/25/24
+File Name: styles07.css
 */
 
 /* CSS Reset */
@@ -29,6 +29,14 @@ header {
 /* Style rules for main content  */
 main {
 	background-color: #fff;
+}
+
+.column {
+	padding-top: 1%;
+	column-count: 3;
+	column-gap: 40px;
+	column-rule-style: solid;
+	column-rule-width: 1px;
 }
 
 aside {
